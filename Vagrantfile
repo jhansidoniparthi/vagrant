@@ -3,8 +3,8 @@ Vagrant.configure("2") do |config|
    config.vm.box = 'dummy'
    config.vm.define "aws" do | config_aws|
    config_aws.vm.provider 'aws' do |aws, override|
-   aws.access_key_id = "AKIAIU44WTZYRIQH4ZCA"
-   aws.secret_access_key = "rb4+8ubWmxmTc1MSUssEtIwp0ygg19zN4zsUpvGE"
+   aws.access_key_id = "#######"
+   aws.secret_access_key = "#######"
    aws.keypair_name = 'docker'
    aws.instance_type = "t2.micro"
    aws.region = 'ap-south-1'
@@ -26,8 +26,8 @@ end
    config.vm.box = 'dummy'
    config.vm.define "aws1" do | config_aws1|
    config_aws1.vm.provider 'aws' do |aws1, override|
-   aws1.access_key_id = "AKIAIU44WTZYRIQH4ZCA"
-   aws1.secret_access_key = "rb4+8ubWmxmTc1MSUssEtIwp0ygg19zN4zsUpvGE"
+   aws1.access_key_id = "#########"
+   aws1.secret_access_key = "###########"
    aws1.keypair_name = 'docker'
    aws1.instance_type = "t2.micro"
    aws1.region = 'ap-south-1'
